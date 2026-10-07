@@ -26,11 +26,11 @@ To swap in a newer reel: download it from Facebook (open the reel, three-dot men
 
 ## Going live (GitHub Pages + lynnsealnaples.com)
 
-The site deploys from this repository with the workflow at `.github/workflows/lynn-seal-pages.yml`. Every push to `main` that touches `sites/lynn-seal/` rebuilds the pages and publishes them to GitHub Pages. Hosting is free.
+The site lives in its own repository, github.com/adam3302127/lynnsealnaples, and deploys with the workflow at `.github/workflows/pages.yml`. Every push to `main` rebuilds the pages and publishes them to GitHub Pages. Hosting is free.
 
 **One-time setup**
 
-1. Merge this branch into `main`. The workflow runs and enables GitHub Pages on its first run. If it fails on "enablement", open the repo's Settings, then Pages, set Source to "GitHub Actions", and re-run the workflow from the Actions tab.
+1. In the repo's Settings, then Pages, set Source to "GitHub Actions". Then run the "Deploy site" workflow once from the Actions tab (every later push to `main` runs it automatically).
 2. In Settings, then Pages, type `lynnsealnaples.com` in Custom domain and save. Tick "Enforce HTTPS" once the certificate shows as issued (usually within an hour of DNS resolving).
 3. At the domain registrar, add these DNS records:
 

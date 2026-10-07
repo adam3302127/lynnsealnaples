@@ -60,3 +60,4 @@ Order: performance / accessibility / best practices / SEO. Remaining performance
 ## 2026-10-07 — v15
 - GitHub Pages deploy workflow for lynnsealnaples.com, plus a go-live section in LAUNCH-GUIDE.md with the DNS records.
 - Review call-out: the Realtor.com and Zillow review links are now a brass-topped panel with two full-width buttons under the review cards.
+- Site moved into its own repository, adam3302127/lynnsealnaples, with full history. Deploy workflow now lives at the repo root.
