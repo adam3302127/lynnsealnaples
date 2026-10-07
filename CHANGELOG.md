@@ -63,3 +63,4 @@ Order: performance / accessibility / best practices / SEO. Remaining performance
 - Site moved into its own repository, adam3302127/lynnsealnaples, with full history. Deploy workflow now lives at the repo root.
 - GitHub Pages enabled on the repository (Source: GitHub Actions); first live deploy.
 - Review on Realtor.com / Review on Zillow buttons added directly under the testimonial reel in the About section.
+- Reel block, caption and review buttons centered on wide phones (auto margins instead of justify-self).
