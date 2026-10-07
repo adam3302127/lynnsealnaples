@@ -113,6 +113,10 @@ section{padding-block:clamp(52px,7vw,96px)}
 .video .sound{position:absolute;right:.6rem;bottom:.6rem;z-index:2;padding:.45rem .8rem;border:1px solid rgba(255,255,255,.7);border-radius:999px;background:rgba(11,37,69,.75);color:#fff;font:600 .72rem/1 var(--body);letter-spacing:.1em;text-transform:uppercase;cursor:pointer;backdrop-filter:blur(6px)}
 .video .sound[aria-pressed="true"]{background:#fff;color:var(--navy)}
 .video-cap{font-size:.8rem;color:var(--muted);text-align:center;margin-top:.7rem;max-width:360px;justify-self:center}
+.video-reviews{display:grid;gap:.55rem;max-width:360px;width:100%;justify-self:center;margin-top:.9rem}
+.video-reviews .btn{width:100%;padding:.8rem 1rem;font-size:.85rem}
+.video-reviews .star{color:var(--brass);font-size:1.1em;line-height:1}
+.video-reviews .btn.primary .star{color:#E9CB8C}
 
 /* flyer cards (listings and sold) */
 .listings{background:var(--paper)}
